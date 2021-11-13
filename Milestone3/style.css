@@ -1,0 +1,83 @@
+
+body{
+    background-image: url("Image.jpg");
+    background: position 100px;;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+h1{
+    font-size:xx-large;
+    font-family: cursive;
+    text-align: center;
+    border-style: solid;
+    border-radius: 0 45px 0 45px;
+    border-width:medium;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: rgb(0,0,0,0.5);
+    margin: auto;
+}
+
+div{
+    border-style: solid;
+    border-radius: 50px;
+    border-width:medium;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    font-weight: 1000;
+    font-size: x-large;
+    font-family: 'Times New Roman', Times, serif;
+    width:800px;
+    background-color: rgb(0,0,0,0.3);
+    margin: auto;
+}
+
+input[type=text], input[type=email], input[type=date]{
+    width: 50%;
+    border-style: solid;
+    border-width:medium;
+    border-color: black;
+    border-radius: 10px;
+    font-size:medium;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+input[type=submit], input[type=reset]{
+    width: 30%;
+    font-size: large;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color:rgb(32, 116, 241);
+    border-style: solid;
+    border-width:medium;
+    border-color: black;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+input[type=submit]:hover, input[type=reset]:hover{
+    background-color: blue;
+}
+
+select{
+    width: 50%;
+    font-size: medium;
+    border-width: medium;
+    border-style: solid;
+    border-color: black;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
